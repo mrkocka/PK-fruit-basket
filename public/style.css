@@ -50,7 +50,7 @@ a:hover {
   color: black;
   font-size: 22px;
   min-width: 120px;
-  padding: 0.5rem;
+  padding: 0.1rem 0.5rem;
   border: 2px solid black;
   border-radius: 15px;
   transition: 100ms linear;
