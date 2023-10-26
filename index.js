@@ -17,27 +17,42 @@ let gyumolcskosar = [
   {
     id: 1,
     name: "Alma",
-    image: "./public/img/alma.png",
+    image: "./img/alma.png",
   },
   {
     id: 2,
     name: "Dinnye",
-    image: "./public/img/dinnye.png",
+    image: "./img/dinnye.png",
   },
   {
     id: 3,
     name: "Eper",
-    image: "./public/img/eper.png",
+    image: "./img/eper.png",
   },
   {
     id: 4,
     name: "Narancs",
-    image: "./public/img/narancs.png",
+    image: "./img/narancs.png",
   },
   {
     id: 5,
     name: "Szőlő",
-    image: "./public/img/szolo.png",
+    image: "./img/szolo.png",
+  },
+  {
+    id: 6,
+    name: "Ananasz",
+    image: "./img/ananasz.png",
+  },
+  {
+    id: 7,
+    name: "Körte",
+    image: "./img/korte.png",
+  },
+  {
+    id: 8,
+    name: "Barack",
+    image: "./img/barack.png",
   },
 ];
 
@@ -56,5 +71,3 @@ server.get("/api/gyumolcskosar/:id", (req, res) => {
     res.send(gyumi);
   }
 });
-
-

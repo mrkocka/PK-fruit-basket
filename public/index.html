@@ -14,7 +14,13 @@
   </head>
   <body>
     <h1>Virtuális Gyümölcskosár</h1>
-    <img src="./img/gyumolcskosar.png" alt="egyrajzoltgyumolcskosar" />
+    <section class="">
+      <img
+        class="gyumiImg-js"
+        src="./img/gyumolcskosar.png"
+        alt="egyrajzoltgyumolcskosar"
+      />
+    </section>
     <label for="selectBox"
       >Válasz egy gyümölcsöt:
       <select id="selectBox">
@@ -23,9 +29,12 @@
         <option value="3">Eper</option>
         <option value="4">Narancs</option>
         <option value="5">Szőlő</option>
+        <option value="6">Ananász</option>
+        <option value="7">Körte</option>
+        <option value="8">Barack</option>
       </select>
     </label>
-    <button id="valastButton-js">Választ</button>
+    <button id="valastButton-js" class="button-style">Választ</button>
     <script src="./main.js"></script>
   </body>
 </html>
