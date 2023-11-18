@@ -59,3 +59,15 @@ a:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
+
+.gyumi-txt {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.gyumi-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
